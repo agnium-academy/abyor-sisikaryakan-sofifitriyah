@@ -5,7 +5,7 @@ using System.Web;
 
 namespace sisikaryakan.Models
 {
-    public class dataKaryawan
+    public class Employee
     {
         public int employeeId { get; set; }
        
