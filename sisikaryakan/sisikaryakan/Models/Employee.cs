@@ -5,9 +5,21 @@ using System.Linq;
 using System.Web;
 
 namespace sisikaryakan.Models
-{
+{   
+    
     public class Employee
     {
+
+        public string position;
+        public Employee()
+        {
+        }
+
+        public Employee(string position)
+        {
+            this.position = position;
+        }
+
         [Required]
         public int employeeId { get; set; }
 
@@ -16,6 +28,9 @@ namespace sisikaryakan.Models
 
         [Required]
         public string gender { get; set; }
+
+        [Required]
+        public DateTime placeOfBirth { get; set; }
 
         [Required]
         public DateTime birthDate { get; set; }
@@ -38,5 +53,21 @@ namespace sisikaryakan.Models
 
         [Required]
         public string phoneNumber { get; set; }
+
+        public int entryEmployee;
+
+
+        public int training;
+
+
+        public string assignment;
+
+        public int layOff;
+
+
+        public int tunjanganTransportasi;
+        
     }
+
+    
 }
