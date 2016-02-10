@@ -7,18 +7,15 @@ namespace sisikaryakan.Models
 {
 
     
-    public class Manager : Supervisor
+    class Manager : Supervisor
     {
         public int tunjanganHariRaya;
-
-
         public int studiBanding;
-
-
         public int tunjanganKesehatan;
 
         public Manager()
         {
+
         }
 
         public Manager(string position)

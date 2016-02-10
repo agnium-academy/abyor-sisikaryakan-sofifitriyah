@@ -129,19 +129,9 @@
     </Compile>
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Manager.cs" />
-    <Compile Include="Models\managerDrilling.cs" />
-    <Compile Include="Models\managerGeneralAffair.cs" />
-    <Compile Include="Models\managerRefinery.cs" />
-    <Compile Include="Models\program.cs" />
+    <Compile Include="Models\Program.cs" />
     <Compile Include="Models\Staff.cs" />
-    <Compile Include="Models\staffDrillingLuwuk.cs" />
-    <Compile Include="Models\staffDrillingRiau.cs" />
-    <Compile Include="Models\staffGeneralAffair.cs" />
-    <Compile Include="Models\staffRefineryBalikpapan.cs" />
     <Compile Include="Models\Supervisor.cs" />
-    <Compile Include="Models\supervisorDrillingLuwuk.cs" />
-    <Compile Include="Models\supervisorDrillingRiau.cs" />
-    <Compile Include="Models\supervisorRefineryBalikpapan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
